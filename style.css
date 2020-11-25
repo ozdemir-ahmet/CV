@@ -139,13 +139,55 @@
 .bar span::before{
     position: absolute;
     content: "";
-    width: 80%;
-    height: 80%;
     background-color: black;
+    height: 80%;
     top: 50%;
     left: 2px;
     transform: translateY(-50%);
     border-radius: 10px;
+}
+
+.java span::before{
+    width: 90%;    
+}
+.spring span::before{
+    width: 70%;   
+}
+.jpa span::before{
+    width: 80%;    
+}
+.ms span::before{
+    width: 70%;   
+}
+.maven span::before{
+    width: 60%;   
+}
+.xml span::before{
+    width: 90%;  
+}
+.jsp span::before{
+    width: 30%;   
+}
+.sql span::before{
+    width: 90%;    
+}
+.oracle span::before{
+    width: 80%;  
+}
+.mongo span::before{
+    width: 30%;    
+}
+.html span::before{
+    width: 70%;   
+}
+.js span::before{
+    width: 50%;    
+}
+.angular span::before{
+    width: 30%;    
+}
+.pm span::before{
+    width: 90%;    
 }
 
 
