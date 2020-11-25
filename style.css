@@ -110,7 +110,7 @@
 }
 
 .skills{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .skills h1{
     font-size: 30px;
@@ -170,4 +170,78 @@
     font-size: 17px;
     color: darkgray;
     margin-top: 10px;
+}
+
+.work-group{
+    margin: 10px 0;
+}
+.work .work-group{
+    position: relative;
+}
+.work-group h3{
+    font-size: 22 px;
+    font-weight: normal;
+    padding-left: 70px;
+}
+.work-group h4{
+    font-size: 18 px;
+    font-weight: normal;
+    padding-left: 70px;
+    color: gray;
+}
+.work-group span{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.education{
+    margin-top: 30px;
+}
+.edu-group{
+    position: relative;
+    margin: 10PX 0;
+}
+.edu-group h4{
+    padding-left: 80px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.edu-group span{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+.edu-group p{
+    padding-left: 80px;
+}
+button{
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 50px 0 50px 140px;
+    background-color: rgb(83, 83, 83);
+    border:  none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    transition: .5s;
+}
+button:hover{
+    background-color: black;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+}
+
+@media print {
+    body *{
+        visibility: hidden;
+    }
+    .print-area * {
+        visibility: visible;
+    }
 }
