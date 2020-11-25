@@ -56,12 +56,13 @@
     width: 30%;
     background-color: rgb(236, 236, 236);
     text-align: center;
+    padding-bottom: 20px;
 }
 .left-area .contact{
     margin-top: 130px;
     padding: 0 30px;
 }
-.contact h1{
+.contact h4{
     font-size: 30px;
     font-weight: normal;
     margin: 20px 0;
@@ -79,12 +80,35 @@
 .contact-row p{
     font-size: 17px;
 }
-.contact-row a{
+
+.links{
+    margin-top: 30px;
+    padding: 0 30px;
+}
+.links h4{
+    font-size: 30px;
+    font-weight: normal;
+    margin: 20px 0;
+}
+.links .link-rows{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px 10px;
+}
+.link-row img{
+    height: 30px;
+    filter: grayscale(100%);
+}
+.link-row p{
+    font-size: 17px;
+}
+.link-row a{
     font-size: 17px;
     text-decoration: none;
     color:gray
-      }
 }
+
 .skills{
     margin-top: 30px;
 }
@@ -128,4 +152,22 @@
 
 .right-area{
     width: 70%;
+    padding: 50px;
+}
+.right-area h1{
+    font-size: 30px;
+    font-weight: normal;
+}
+.right-area h1 span{
+    margin-right: 30px;
+    font-size: 50px;
+    color: lightgray;
+}
+.right-area p{
+    padding-left: 70px;
+    text-align: justify;
+    word-break: break-all;
+    font-size: 17px;
+    color: darkgray;
+    margin-top: 10px;
 }
